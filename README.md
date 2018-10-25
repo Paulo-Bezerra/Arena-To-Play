@@ -1,4 +1,4 @@
-Arena To Play
+#Arena To Play
 
 O site ‚ um projeto da diciplina de Autoria Web.
 Docente: Fabio Fernades Penha
@@ -14,4 +14,4 @@ Criar uma Tabela de classificação com a posição dos times nos seus respetivo
 Criar uma área para adicionar notícias dos temes;
 Produzir um local com a história de xada clube.
 
-Formula essas telas para que seja de fácil usabilidade para pessoas que, geralmente, estão apenas interessadas numa informação rápida do seu time.
+Formula essas telas para que seja de *fácil* **usabilidade** para pessoas que, geralmente, estão apenas interessadas numa informação rápida do seu time.
