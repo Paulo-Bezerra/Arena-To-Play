@@ -1,6 +1,6 @@
 # Arena To Play
 
-O site ‚ um projeto da diciplina de Autoria Web.
+O site é um projeto da diciplina de Autoria Web.
 Docente: Fabio Fernades Penha
 Discente: Paulo Bezerra da Silva
 
