@@ -11,7 +11,7 @@ Tema: Um site com as informações dos principais times potiguares.
 Objetivo: 
 
 Criar uma Tabela de classificação com a posição dos times nos seus respetivos campeonatos/copas;
-Criar uma área para adicionar notícias dos temes;
+Criar uma área para adicionar notícias dos times;
 Produzir um local com a história de xada clube.
 
 Formular essas telas para que seja de *fácil* **usabilidade** para pessoas que, geralmente, estão apenas interessadas numa informação rápida do seu time.
