@@ -10,7 +10,7 @@ Tema: Um site com as informações dos principais times potiguares.
 
 Objetivo: 
 
-Criar uma **Tabela** de classificação com a posição dos times nos seus respetivos campeonatos/copas;
+Criar uma **tabela** de classificação com a posição dos times nos seus respetivos campeonatos/copas;
 Criar uma área para adicionar **notícias** dos times;
 Produzir um local com a *história* de cada clube.
 
