@@ -1,0 +1,125 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html{
+	background-color: #eaf0f2;
+}
+
+body{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color: #FAFAFA;
+}
+
+.cabecalho-login{
+	background-color: #443D9F;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #FAFAFA;
+	box-sizing: border-box;
+}
+
+.cabecalho-login .cabecalho-limite {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+.cabecalho-login .cabecalho-limite h1{
+	float: left;
+	font-family: 'Comfortaa', cursive;
+	line-height: 40px;
+	margin: 0;
+}
+
+.cabecalho-login .cabecalho-limite h1 span {
+	color: #2B9874;
+}
+
+.cabecalho-login .cabecalho-limite a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.cabecalho-login .cabecalho-limite nav {
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	line-height: 1;
+	float: right;
+}
+
+.cabecalho-login .cabecalho-limite nav a{
+	font-weight: bold;
+	background-color: #2D286A;
+	padding: 10px 15px;
+	border-radius: 3px;
+	display: inline-block;
+	margin-left: 15px;
+	opacity:0.9;
+}
+
+.cabecalho-login .cabecalho-limite nav a:hover {
+	opacity: 1;
+	background-color: #2B9874;
+}
+
+.cabecalho-login .cabecalho-limite nav a.selected{
+	color: #FAFAFA;
+	background-color: #2B9874;
+}
+
+.cabecalho-inferior {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FAFAFA;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20vh 20px;
+	height: 80px;
+	color: #222222;
+	box-sizing: border-box;
+	top: 80px;
+	height: 80vh;
+	margin: 0 auto;
+}
+
+.box-topico {
+
+ 	background-color: #FAFAFA;
+	padding: 50px 40px;
+	color: #222222;
+	box-sizing: border-box;
+	width: 27vw;
+	height: 65vh;
+	box-shadow:0 10px 10px #326395;
+	border-radius: 10px 10px 0px 0px;
+	text-align: center;
+	background: linear-gradient(0deg, #FAFAFA 50%, #326395 50%);
+}
+
+.box-esquerda {
+	
+	float: left;
+}
+
+.box-centro {
+	margin: 0 auto;
+}
+
+.box-direita {
+	float: right;
+}
+
+img.icone-topico {
+	width: 96px;
+	height: 96px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.p-topico {
+	margin-top: 16vh;
+}
