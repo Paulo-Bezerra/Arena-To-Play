@@ -1,0 +1,16 @@
+https://fonts.google.com/specimen/Bree+Serif?selection.family=Bree+Serif
+
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet"> 
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+font-family: 'Bree Serif', serif;
+
+
+https://fonts.google.com/?selection.family=Comfortaa
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+font-family: 'Comfortaa', cursive;
