@@ -15,3 +15,5 @@ Criar uma área para adicionar **notícias** dos times;
 Produzir um local com a *história* de cada clube.
 
 Formular essas telas para que seja de *fácil* **usabilidade** para pessoas que, geralmente, estão apenas interessadas numa informação rápida do seu time.
+
+O site está hospedado no firebase com o seguinte domínio: https://arenatoplay.firebaseapp.com/
