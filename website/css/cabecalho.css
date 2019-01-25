@@ -97,8 +97,10 @@ body{
 	height: 65vh;
 	box-shadow:0 10px 10px #326395;
 	border-radius: 10px 10px 0px 0px;
+	border-top-color: #326395;
+	border-top: 10px #326395;
 	text-align: center;
-	background: linear-gradient(0deg, #FAFAFA 50%, #326395 50%);
+	/*background: linear-gradient(0deg, #FAFAFA 50%, #443D9F 50%);*/
 }
 
 .box-esquerda {
@@ -121,6 +123,43 @@ img.icone-topico {
 	margin: 0 auto;
 }
 
+.ico-topico {
+	font-size: 48px;
+	margin: 0 auto;
+	border-radius: 50%;
+	color: #443D9F;
+}
+
 .p-topico {
 	margin-top: 16vh;
+}
+
+.btnPersonal {
+	border: none;
+	color: #443D9F;
+	background-color: #FAFAFA;
+	font-size: 32px;
+	margin-left: 16px;
+	margin-right: 16px;
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	border: 0px;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+}
+
+.btnPersonal:hover {
+	background-color: #443D9F;
+	color: #FAFAFA;
+	box-shadow:0 2px 2px #326395;
+}
+
+#myModal {
+	padding-top: 8px;
+}
+
+i {
+	margin: 0 auto;
 }
