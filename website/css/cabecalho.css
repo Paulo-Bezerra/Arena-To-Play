@@ -11,13 +11,16 @@ body{
 	padding:0;
 	margin:0;
 	background-color: #FAFAFA;
+	overflow: hidden;
+	width: 100vw;
+	position: fixed;
 }
 
 .cabecalho-login{
 	background-color: #443D9F;
 	box-shadow:0 1px 1px #ccc;
 	padding: 20px 40px;
-	height: 80px;
+	height: 10vh;
 	color: #FAFAFA;
 	box-sizing: border-box;
 }
@@ -156,10 +159,150 @@ img.icone-topico {
 	box-shadow:0 2px 2px #326395;
 }
 
-#myModal {
+#myBtn {
 	padding-top: 8px;
 }
 
 i {
 	margin: 0 auto;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.45); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #FAFAFA;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #888;
+  width: 450px;
+  border-radius: 16px;
+  height: 500px;
+  position: relative;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #D93025;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea {
+	width: 100%;
+	font-size: 18px "Source Sans Pro";
+	box-sizing: border-box;
+	border: 1px solid #2B9874;
+	border-radius: 10px;
+	outline: none;
+	resize: none;
+
+}
+
+form {
+	margin: 0 auto;
+	width: 80%;
+	padding-top: 50px
+}
+
+form div + div {
+	margin-top: 40px;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+input {
+	font-size: 18px "Source Sans Pro";
+	width: 300px;
+	
+	border: 0px;
+	border-bottom: 1px solid #2B9874;
+	border-radius: 3px;
+	outline: none;
+
+}
+
+input:focus {
+	border-bottom: 1px solid #443D9F;
+}
+textarea:focus {
+	border: 1px solid #443D9F;
+	margin-top-top: 20px;
+}
+.caixa-btn {
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.btn {
+	border: none;
+	color: #FAFAFA;
+	opacity: 1;
+	background-color: #2B9874;
+	font: 18px "Source Sans Pro";
+	height: 36px;
+	width: 100px;
+	border-radius: 20px;
+	border: 0px;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+}
+
+.btn:hover {
+	background-color: #2D286A;
+}
+
+.pe {
+	font: 16px "Source Sans Pro";
+	padding-left: 10px;
+	color: #FAFAFA;
+	height: 10vh;
+	width: 100vw;
+	background-image: linear-gradient(to bottom, #443D9F 0%, #1B1840 100%);
+}
+
+#p-pe {
+	margin-top: 0;
+	padding-top: 10px;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+#ico-rodape {
+	font-size: 120px;
+	display: inline;
+	position: relative;
+	margin-top: -8vh;
+	float: right;
+	margin-right: 20px;
+	color: #FAFAFA;
 }

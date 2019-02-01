@@ -59,14 +59,14 @@
 
 			<div class = "p-topico">Veja como está escalado o seu time do coração para próximo e as últimas contratatações.</div>
 			<button id = "myLike" class = "btnPersonal"><i class="far fa-thumbs-up"></i></button>
-			<button id = "myModal" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
+			<button id = "myBtn" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
 		</div>
 		<div class = "box-topico box-direita">
 			<div class = "ico-topico"><i class="fas fa-trophy"></i></div>
 
 			<div class = "p-topico">Veja como os times potiguares estão em seus respectivos campeenatos e copas.</div>
 			<button id = "myLike" class = "btnPersonal"><i class="far fa-thumbs-up"></i></button>
-			<button id = "myModal" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
+			<button id = "myBtn" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
 		</div>
 
 		<div class = "box-topico box-centro">
@@ -74,10 +74,70 @@
 
 			<div class = "p-topico">Acesse as notícias e fique por dentro dos acontecimentos do volátil futebol potiguar!</div>
 			<button id = "myLike" class = "btnPersonal"><i class="far fa-thumbs-up"></i></button>
-			<button id = "myModal" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
+			<button id = "myBtn" class = "btnPersonal"><i class="far fa-comment-alt"></i></button>
 		</div>
 	</div>
 
+	<footer class = "pe">
+		<p id = "p-pe">Create by <span class = "negrito">Paulo Bezerra</span></p>
+		<p id = "p-pe2">Todos os direitos resevados Melindros&copy;</p>
+		<div id = "ico-rodape"><i class="far fa-futbol"></i></div>
+	</footer>
+
+	<div id="myModal" class="modal">
+
+  		<!-- Modal content -->
+  		<div class="modal-content">
+   			<span class="close">&times;</span>
+    		<form action="/minha-pagina-de-modificacaoo">
+    			<div>
+    				<label for = "nome">Nome:</label><br>
+					<input type="text" id = "name" name="Name"><br>
+				</div>
+				<div>
+    				<label for = "email">Email:</label><br>
+					<input type="text" id = "email" name="email"><br>
+				</div>
+				<div>
+    				<label for = "comentario">Comentário:</label><br>
+					<textarea id = "txtCmt" name = "comentario" rows="10" cols="50"></textarea>
+				</div>
+				<div class="caixa-btn">
+					<button class="btn" type="submit">Enviar</button>
+				</div>
+			</form>
+  		</div>
+
+	</div>
+
+<!--scripts Modal-->
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 
 </body>
