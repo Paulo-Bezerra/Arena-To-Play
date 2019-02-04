@@ -1,5 +1,6 @@
 {
   "projects": {
-    "website": "arenatoplay"
+    "website": "arenatoplay",
+    "default": "arenatoplay"
   }
 }
