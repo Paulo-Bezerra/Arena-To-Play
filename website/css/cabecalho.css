@@ -238,7 +238,7 @@ label {
 
 input {
 	font-size: 18px "Source Sans Pro";
-	width: 300px;
+	width: 100%;
 	
 	border: 0px;
 	border-bottom: 1px solid #2B9874;
