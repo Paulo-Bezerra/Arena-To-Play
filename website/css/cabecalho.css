@@ -188,6 +188,7 @@ i {
   background-color: #FAFAFA;
   margin: auto;
   padding: 15px;
+  padding-top: 30px;
   border: 1px solid #888;
   width: 450px;
   border-radius: 16px;
@@ -201,6 +202,7 @@ i {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  margin-top: -20px;
 }
 
 .close:hover,
@@ -218,6 +220,7 @@ textarea {
 	border-radius: 10px;
 	outline: none;
 	resize: none;
+	background-color: #FAFAFA;
 
 }
 
@@ -225,6 +228,7 @@ form {
 	margin: 0 auto;
 	width: 80%;
 	padding-top: 50px
+	background-color: #FAFAFA;
 }
 
 form div + div {
@@ -234,6 +238,7 @@ form div + div {
 label {
 	display: inline-block;
 	margin-bottom: 5px;
+	background-color: #FAFAFA;
 }
 
 input {
@@ -244,6 +249,7 @@ input {
 	border-bottom: 1px solid #2B9874;
 	border-radius: 3px;
 	outline: none;
+	background-color: #FAFAFA;
 
 }
 
